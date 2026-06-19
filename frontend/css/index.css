@@ -1,3 +1,16 @@
 h1 {
     color: red;
 }
+#heading-2{
+    color: blue;
+}
+.heading{
+   color: pink;
+}
+.para{
+    border-color: black;
+    border: 2px;
+    border-style: solid;
+    padding: 10px;
+    text-align: center;
+}
