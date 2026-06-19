@@ -1,0 +1,19 @@
+{
+  "name": "autosuggest",
+  "version": "1.0.0",
+  "description": "checking up the setup",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/24wh1a0502-creator/autosuggest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/24wh1a0502-creator/autosuggest/issues"
+  },
+  "homepage": "https://github.com/24wh1a0502-creator/autosuggest#readme"
+}
