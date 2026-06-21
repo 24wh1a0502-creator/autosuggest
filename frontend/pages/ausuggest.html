@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto suggest</title>
+    <link rel="stylesheet" href="../css/ausuggest.css">
 </head>
 <body>
+    <p class="para"><span class="gear">&#9881;</span>
+        <span class="pill">&#x2022; online | &#9201; -ms</span></p>
+        <div class="content">
+    <h1 class="head"><span class="one">Being</span><span class="two">Infinity</span></h1>
+</h1>
+    <p class="para">one million phrase . Four Algorithm . prefix based auto suggest.</p>
     <div>
-    <p><span class="gear">&#9881;</span>
-        <span class="pill">&#x2022;></span>online | <span> &#9201; -ms</span></p>
-    <h1>Being Infinity</h1>
-    <p>one million phrase . Four Algorithm . prefix based auto suggest.</p>
         <span>&#128269;</span>
-    <input placeholder="search" >
+    <input class="search" id="search-bar" placeholder="typing" >
+    <div id="search-suggestions"></div>
     </div>
+    </div>
+    <script src="../js/ausuggest.js"></script>
 </body>
 </html>

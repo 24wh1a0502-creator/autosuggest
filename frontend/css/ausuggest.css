@@ -1,0 +1,45 @@
+.gear {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+}
+.pill {
+    position: fixed;
+    top: 30px;
+    right: 40px;
+}
+.content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+.search {
+    border-radius: 10px;
+    padding-bottom : 10px; ;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: beige;
+}
+.para {
+    font-size: 20px;
+}
+.head {
+    font-size: 80px;
+}
+.one {
+   color: chartreuse;
+}
+.two {
+   color: fuchsia;
+}
